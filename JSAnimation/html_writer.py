@@ -186,9 +186,9 @@ DISPLAY_TEMPLATE = """
     <button onclick="anim{id}.last_frame()"><img class="anim_icon" src="{icons.last}"></button>
     <button onclick="anim{id}.faster()">+</button>
   <form action="#n" name="_anim_loop_select{id}" class="anim_control">
-    <input type="radio" name="state" value="once" {once_checked}> Once </input>
-    <input type="radio" name="state" value="loop" {loop_checked}> Loop </input>
-    <input type="radio" name="state" value="reflect" {reflect_checked}> Reflect </input>
+    <input type="radio" name="state" value="once" {once_checked}> Una Vez </input>
+    <input type="radio" name="state" value="loop" {loop_checked}> Bucle </input>
+    <input type="radio" name="state" value="reflect" {reflect_checked}> Reflejar </input>
   </form>
 </div>
 
